@@ -1,0 +1,160 @@
+html {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main {
+  width: 1170px;
+}
+
+.headline {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 2.5rem 0 2rem 0;
+}
+
+.check-icon {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 2rem;
+}
+
+p,
+span {
+  font-size: 1.3rem;
+}
+
+.container {
+  padding: 1.5rem;
+}
+
+.p24-logo {
+  margin: 2rem 0;
+}
+
+.quick-payments div {
+  margin: 2.5rem 0;
+}
+
+.quick-payments div p {
+  padding: 0 6rem;
+}
+
+.installments {
+  margin: 6rem 0;
+}
+
+.installments .p24-graph {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.installments .advantage {
+  margin: 2.5rem 0;
+}
+
+.installments .p24-installments-advantages img {
+  width: 3.7rem;
+  height: 5.4rem;
+}
+
+.installments .p24-installments-advantages .advantage h4 {
+  margin-bottom: 1.5rem;
+  padding: 0 6rem;
+}
+
+.installments .p24-installments-advantages .advantage p {
+  padding: 0 6rem;
+}
+
+.payment-process img {
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+.payment-process p {
+  margin: 2.5rem 0 2rem 0;
+}
+
+.payment-process .payment-schema-horizont {
+  display: none;
+}
+
+/*DESKTOP*/
+@media (min-width: 576px) {
+  .container p {
+    font-size: 1.6rem;
+  }
+  .title {
+    padding: 0;
+    text-align: left;
+  }
+  .p24-logo {
+    text-align: right;
+    margin-bottom: 4rem;
+  }
+  .payments-method-content .transfers {
+    margin-top: 7rem;
+  }
+  .payments-method-content p {
+    margin-left: 6rem;
+  }
+  .quick-payments {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 5rem;
+  }
+  .quick-payments h4 {
+    margin-top: 2.5rem;
+    font-weight: bold;
+  }
+  .quick-payments p {
+    margin: 0;
+  }
+  .quick-transfer img {
+    height: 6.2rem;
+  }
+  .installments p {
+    margin-left: 6rem;
+  }
+  .p24-installments-advantages h3 {
+    margin-top: 7rem;
+  }
+  .p24-installments-advantages h4 {
+    font-weight: bold;
+    margin-top: 2.5rem;
+  }
+  .p24-installments-advantages .advantages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .p24-installments-advantages .advantage p {
+    padding: 0;
+    margin: 0;
+  }
+  .payment-process .payment-schema {
+    display: none;
+  }
+  .payment-process p {
+    margin: 7rem 0;
+  }
+  .payment-process .payment-schema-horizont {
+    display: block;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,156 @@
+html {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	justify-content: center;
+}
+main {
+	width: 1170px;
+}
+.headline {
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin: 2.5rem 0 2rem 0;
+}
+.check-icon {
+	width: 4rem;
+	height: 4rem;
+	margin-right: 2rem;
+}
+p,
+span {
+	font-size: 1.3rem;
+}
+.container {
+	padding: 1.5rem;
+}
+.p24-logo {
+	margin: 2rem 0;
+}
+.quick-payments div {
+	margin: 2.5rem 0;
+	p {
+		padding: 0 6rem;
+	}
+}
+.installments {
+	margin: 6rem 0;
+	.p24-graph {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	.advantage {
+		margin: 2.5rem 0;
+	}
+	.p24-installments-advantages {
+		img {
+			width: 3.7rem;
+			height: 5.4rem;
+		}
+		.advantage {
+			h4 {
+				margin-bottom: 1.5rem;
+				padding: 0 6rem;
+			}
+			p {
+				padding: 0 6rem;
+			}
+		}
+	}
+}
+.payment-process {
+	img {
+		width: 100%;
+		margin-bottom: 2.5rem;
+	}
+	p {
+		margin: 2.5rem 0 2rem 0;
+	}
+}
+.payment-process {
+	.payment-schema-horizont {
+		display: none;
+	}
+}
+/*DESKTOP*/
+@media (min-width: 576px) {
+	.container {
+		p {
+			font-size: 1.6rem;
+		}
+	}
+	.title {
+		padding: 0;
+		text-align: left;
+	}
+	.p24-logo {
+		text-align: right;
+		margin-bottom: 4rem;
+	}
+
+	.payments-method-content {
+		.transfers {
+			margin-top: 7rem;
+		}
+		p {
+			margin-left: 6rem;
+		}
+	}
+	.quick-payments {
+		display: flex;
+		margin-top: 5rem;
+		h4 {
+			margin-top: 2.5rem;
+			font-weight: bold;
+		}
+		p {
+			margin: 0;
+		}
+	}
+	.quick-transfer img {
+		height: 6.2rem;
+	}
+	.installments {
+		p {
+			margin-left: 6rem;
+		}
+	}
+	.p24-installments-advantages {
+		h3 {
+			margin-top: 7rem;
+		}
+		h4 {
+			font-weight: bold;
+			margin-top: 2.5rem;
+		}
+		.advantages {
+			display: flex;
+		}
+		.advantage {
+			p {
+				padding: 0;
+				margin: 0;
+			}
+		}
+	}
+	.payment-process {
+		.payment-schema {
+			display: none;
+		}
+		p {
+			margin: 7rem 0;
+		}
+	}
+
+	.payment-process {
+		.payment-schema-horizont {
+			display: block;
+		}
+	}
+}
