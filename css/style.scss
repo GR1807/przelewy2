@@ -28,7 +28,15 @@ p {
 	padding: 2rem;
 }
 .p24-logo {
+	display: flex;
+	align-items: baseline;
+	justify-content: flex-end;
 	margin: 2rem 0;
+}
+.cennik24-logo {
+	width: 12.6rem;
+	height: 2.5rem;
+	margin-right: 4rem;
 }
 .quick-payments div {
 	margin: 2.5rem 0;
@@ -98,9 +106,12 @@ p {
 		text-align: right;
 		margin-bottom: 4rem;
 	}
-	.container .info,
+	.container .info-one,
 	.container .info-two {
 		font-size: 1.9rem;
+	}
+	.container .info-one {
+		margin-left: 0;
 	}
 	.payments-method-content {
 		.transfers {
@@ -141,6 +152,10 @@ p {
 		.advantages {
 			display: flex;
 			margin-top: 5.5rem;
+			p {
+				padding: 0 6rem;
+				margin: 0;
+			}
 		}
 		.advantages .advantage-two img {
 			width: 6.2rem;
@@ -149,12 +164,6 @@ p {
 		.advantages .advantage-three img {
 			width: 3.5rem;
 			height: 4.7rem;
-		}
-		.advantages {
-			p {
-				padding: 0 6rem;
-				margin: 0;
-			}
 		}
 	}
 	.payment-process {

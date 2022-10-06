@@ -40,7 +40,22 @@ p {
 }
 
 .p24-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   margin: 2rem 0;
+}
+
+.cennik24-logo {
+  width: 12.6rem;
+  height: 2.5rem;
+  margin-right: 4rem;
 }
 
 .quick-payments div {
@@ -111,9 +126,12 @@ p {
     text-align: right;
     margin-bottom: 4rem;
   }
-  .container .info,
+  .container .info-one,
   .container .info-two {
     font-size: 1.9rem;
+  }
+  .container .info-one {
+    margin-left: 0;
   }
   .payments-method-content .transfers {
     margin-top: 7rem;
@@ -154,6 +172,10 @@ p {
     display: flex;
     margin-top: 5.5rem;
   }
+  .p24-installments-advantages .advantages p {
+    padding: 0 6rem;
+    margin: 0;
+  }
   .p24-installments-advantages .advantages .advantage-two img {
     width: 6.2rem;
     height: 5.2rem;
@@ -161,10 +183,6 @@ p {
   .p24-installments-advantages .advantages .advantage-three img {
     width: 3.5rem;
     height: 4.7rem;
-  }
-  .p24-installments-advantages .advantages p {
-    padding: 0 6rem;
-    margin: 0;
   }
   .payment-process .payment-schema {
     display: none;
