@@ -11,22 +11,21 @@ main {
 	width: 1170px;
 }
 .headline {
-	font-size: 2rem;
+	font-size: 2.1rem;
 	font-weight: bold;
-	text-transform: capitalize;
 	margin: 2.5rem 0 2rem 0;
 }
-.check-icon {
-	width: 4rem;
-	height: 4rem;
-	margin-right: 2rem;
-}
-p,
-span {
-	font-size: 1.3rem;
-}
 .container {
-	padding: 1.5rem;
+	margin: 0 auto;
+}
+.check-icon {
+	width: 2.9rem;
+	height: 2.6rem;
+	margin: 0 1.5rem 0 1.5rem;
+}
+p {
+	font-size: 1.3rem;
+	padding: 2rem;
 }
 .p24-logo {
 	margin: 2rem 0;
@@ -39,15 +38,15 @@ span {
 }
 .installments {
 	margin: 6rem 0;
+	.p24now {
+		text-align: center;
+	}
 	.p24-graph {
 		width: 100%;
 		margin: 0;
 		padding: 0;
 	}
 
-	.advantage {
-		margin: 2.5rem 0;
-	}
 	.p24-installments-advantages {
 		img {
 			width: 3.7rem;
@@ -63,8 +62,12 @@ span {
 			}
 		}
 	}
+	h4 {
+		font-weight: bold;
+		font-size: 2.1rem;
+	}
 }
-.payment-process {
+.payment-flow {
 	img {
 		width: 100%;
 		margin-bottom: 2.5rem;
@@ -78,11 +81,13 @@ span {
 		display: none;
 	}
 }
+
 /*DESKTOP*/
 @media (min-width: 576px) {
 	.container {
 		p {
 			font-size: 1.6rem;
+			margin-left: 4rem;
 		}
 	}
 	.title {
@@ -93,13 +98,16 @@ span {
 		text-align: right;
 		margin-bottom: 4rem;
 	}
-
+	.container .info,
+	.container .info-two {
+		font-size: 1.9rem;
+	}
 	.payments-method-content {
 		.transfers {
 			margin-top: 7rem;
 		}
 		p {
-			margin-left: 6rem;
+			margin-left: 4rem;
 		}
 	}
 	.quick-payments {
@@ -117,8 +125,9 @@ span {
 		height: 6.2rem;
 	}
 	.installments {
-		p {
-			margin-left: 6rem;
+		.p24-graph {
+			width: 82rem;
+			height: 47rem;
 		}
 	}
 	.p24-installments-advantages {
@@ -131,10 +140,19 @@ span {
 		}
 		.advantages {
 			display: flex;
+			margin-top: 5.5rem;
 		}
-		.advantage {
+		.advantages .advantage-two img {
+			width: 6.2rem;
+			height: 5.2rem;
+		}
+		.advantages .advantage-three img {
+			width: 3.5rem;
+			height: 4.7rem;
+		}
+		.advantages {
 			p {
-				padding: 0;
+				padding: 0 6rem;
 				margin: 0;
 			}
 		}
@@ -149,8 +167,29 @@ span {
 	}
 
 	.payment-process {
+		display: flex;
+		justify-content: center;
 		.payment-schema-horizont {
 			display: block;
+			width: 82rem;
+			height: 27.6rem;
 		}
 	}
+	.payment-flow {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 3rem;
+	}
+	.flow-content {
+		margin: 5rem 0;
+		font-size: 6rem;
+	}
+	.payment-flow img {
+		width: 471px;
+		height: 260px;
+	}
+}
+.info-two {
+	margin: 5rem 0;
 }
