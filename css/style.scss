@@ -3,6 +3,10 @@ html {
 	margin: 0;
 	box-sizing: border-box;
 }
+.container-fluid {
+	padding: 0;
+	margin: 0;
+}
 body {
 	display: flex;
 	justify-content: center;
@@ -17,6 +21,7 @@ main {
 }
 .container {
 	margin: 0 auto;
+	padding: 0;
 }
 .check-icon {
 	width: 2.9rem;
@@ -29,8 +34,8 @@ p {
 }
 .p24-logo {
 	display: flex;
+	justify-content: center;
 	align-items: baseline;
-	justify-content: flex-end;
 	margin: 2rem 0;
 }
 .cennik24-logo {
@@ -75,7 +80,7 @@ p {
 		font-size: 2.1rem;
 	}
 }
-.payment-flow {
+.payment-flow-mobile {
 	img {
 		width: 100%;
 		margin-bottom: 2.5rem;
@@ -84,9 +89,27 @@ p {
 		margin: 2.5rem 0 2rem 0;
 	}
 }
+.payment-flow-desktop {
+	display: none;
+}
 .payment-process {
+	display: flex;
+	width: 100%;
+	justify-content: center;
 	.payment-schema-horizont {
 		display: none;
+	}
+}
+.go-to-shop {
+	display: flex;
+	justify-content: center;
+	button {
+		padding: 1.5rem 2rem;
+		margin-bottom: 2.5rem;
+		background-color: #f7cb02;
+		border-radius: 2rem;
+		border: none;
+		font-weight: bold;
 	}
 }
 
@@ -103,7 +126,8 @@ p {
 		text-align: left;
 	}
 	.p24-logo {
-		text-align: right;
+		display: flex;
+		justify-content: flex-end;
 		margin-bottom: 4rem;
 	}
 	.container .info-one,
@@ -184,7 +208,10 @@ p {
 			height: 27.6rem;
 		}
 	}
-	.payment-flow {
+	.payment-flow-mobile {
+		display: none;
+	}
+	.payment-flow-desktop {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
@@ -194,11 +221,21 @@ p {
 		margin: 5rem 0;
 		font-size: 6rem;
 	}
-	.payment-flow img {
-		width: 820px;
-		height: 489px;
+	.payment-flow-desktop img {
+		width: 80.2rem;
+		height: 48.9rem;
 	}
 }
 .info-two {
 	margin: 5rem 0;
+}
+.go-to-shop {
+	button {
+		padding: 2rem 4rem;
+		margin: 2.5rem;
+		background-color: #f7cb02;
+		border-radius: 2rem;
+		border: none;
+		font-weight: bold;
+	}
 }
