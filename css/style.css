@@ -155,7 +155,9 @@ p {
   padding: 3.9rem;
   text-transform: uppercase;
   font-weight: bold;
-  line-height: 50px;
+  line-height: 5rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 a:hover {
