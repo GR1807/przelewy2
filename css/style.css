@@ -139,15 +139,28 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 
-.go-to-shop button {
-  padding: 1.5rem 2rem;
-  margin-bottom: 2.5rem;
+.go-to-shop span {
+  margin: 4rem;
   background-color: #f7cb02;
-  border-radius: 2rem;
   border: none;
+}
+
+.go-to-shop span a {
+  padding: 3.9rem;
+  text-transform: uppercase;
   font-weight: bold;
+  line-height: 50px;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
 }
 
 /*DESKTOP*/
@@ -243,6 +256,7 @@ p {
   }
   .payment-process .payment-schema-horizont {
     display: block;
+    margin: 6rem 0;
     width: 82rem;
     height: 27.6rem;
   }
@@ -272,14 +286,5 @@ p {
 
 .info-two {
   margin: 5rem 0;
-}
-
-.go-to-shop button {
-  padding: 2rem 4rem;
-  margin: 2.5rem;
-  background-color: #f7cb02;
-  border-radius: 2rem;
-  border: none;
-  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
